@@ -1,0 +1,42 @@
+/* ===================================================
+            fullBody design START 
+=================================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #eaeded;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* fullBody design END  */
+
+
+/* ===================================================
+            login form design START 
+=================================================== */
+
+body #loginFormSec #loginFormDiv #mainForm{
+    border: 2px solid #ddd ;
+    margin: 8% 1% ;
+    border-radius: 15px ;
+}
+
+body #loginFormSec #loginFormDiv form a{
+    width:80%;
+}
+
+
+
+/* login form design END */
+

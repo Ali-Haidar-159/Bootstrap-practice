@@ -1,0 +1,117 @@
+/* ===================================================
+            fullBody design START 
+=================================================== */
+
+
+#fullBody{
+    font-family: "Montserrat", sans-serif; 
+}
+
+
+/* fullBody design END  */
+
+
+/* ===================================================
+            navbarDiv design START 
+=================================================== */
+
+#navbarDiv {
+    background-color: aliceblue;
+
+}
+
+#navbarDiv a{
+    color: black;
+    border-bottom: 2px solid aliceblue ;
+}
+
+
+#navbarDiv .navbar-nav a:hover{
+    border-bottom: 2px solid orange;
+}
+
+
+.navbar-brand{
+    font-family: "Playwrite GB S", cursive;
+    font-weight: bolder;
+    transition: 0.4s;
+}
+
+.navbar-brand:hover{
+    transform: scale(1.05);
+}
+
+.navbar-nav li{
+    padding: 5px;
+}
+
+.navbar-nav a:hover{
+    color: brown;
+}
+
+/* navbar design END  */
+
+/* ===================================================
+            productDetails design START 
+=================================================== */
+
+.productMiniImage{
+    width: 90%;
+    height: 100px ;
+    padding: 5%;
+}
+
+.tab-content{
+    text-align: center;
+}
+
+
+/* productDetails design end  */
+
+
+/* ===================================================
+            Query design START 
+=================================================== */
+
+#queryDiv{
+    margin: 2%; 
+    padding: 20px ;
+    text-align: center;
+    background-image: url("./images/back.jpg");
+    color: aliceblue;
+}
+
+
+/* ===================================================
+            Footer Section design START 
+=================================================== */
+
+#footerDiv{
+    background-color: rgb(6, 6, 79);
+    padding: 5%;
+}
+
+#footerDiv p{
+    margin-bottom: 0;
+}
+
+#footerDiv a{
+    color: white;
+}
+
+#footerDiv a:hover{
+    color:white ;
+}
+
+#footerDiv h4{
+    color: white;
+}
+
+#footerDiv h6{
+    font-weight: bold ;
+    color: orange;
+}
+
+
+/* footer desing END  */
+

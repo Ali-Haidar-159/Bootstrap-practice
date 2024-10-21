@@ -1,0 +1,500 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+
+    <head>
+
+        <title>My Website</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <meta name="description" content="This is a practice website.">
+        <meta name="author" content="Ali Haidar">
+
+        <!-- Favicon connection -->
+         <link rel="icon" href="./images/logo.png">
+
+        <!-- Font Awesome connection using cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Google font connection using cdn  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Satisfy&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap connection  using cdn  -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+        <!-- my css file connection -->
+         <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        
+        <div id="mainDiv" class="container">
+
+            <header>
+                
+                <section id="navbarSec">
+
+                    <nav class="navbar  navbar-expand-sm">
+
+                        <a class="nav-brand" href="#">
+                            <img src="./images/logo.png" alt="logo" style="width: 90px;">
+                        </a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="fas fa-bars text-white"></i></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item mr-3"><a class="nav-link" href="#">Home</a></li>
+                                <li class="nav-item mr-3"><a class="nav-link" href="#aboutmeDiv">About_Me</a></li>
+                                <li class="nav-item mr-3"><a class="nav-link" href="#skillsDiv">Skills</a></li>
+                                <li class="nav-item mr-3"><a class="nav-link" href="#contactDiv">Contact</a></li>
+                            </ul>
+                        </div>
+
+                    </nav>
+
+                </section>
+
+                <div class="d-flex justify-content-center align-items-center flex-column" style="height: 100vh;">
+                    <div id="headingDiv" class="text-center text-white bg-primary m-3 p-3 rounded">
+                        <h2>Learn Something New!!!</h2>
+                    </div>
+
+                    <div id="buttonDiv" class="d-flex">
+                        <button class="btn btn-danger btn-md" onclick="location.href='https://alihaidarewu.blogspot.com/'"><i class="fa-brands fa-blogger d-inline mr-2"></i>Blog</button>
+                        <button class="btn btn-warning btn-md" onclick="location.href='https://www.youtube.com/@ALIHAIDAR-ENGINEER'"><i class="fa-brands fa-youtube text-white d-inline mr-2"></i>Subscribe</button>
+                    </div>
+                </div>
+
+
+            </header>
+
+            <main>
+
+<!-- card section starts here  -->
+
+               <section id="cardSec" class="container">
+
+                    <div id="cardDiv" class="row justify-content-center">
+                        <div id="card1" class="card col-sm-8 col-lg-3 rounded m-4">
+                            <a href="#"><i class="fa-solid fa-school-circle-check fa-2x"></i></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Free To Use</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, eos! Eligendi velit neque perspiciatis error.</p>                                
+                            </div>
+                        </div>
+
+                        <div id="card2" class="card col-sm-8 col-lg-3 rounded m-4">
+                            <a href="#"><i class="fa-brands fa-leanpub fa-2x"></i></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Easy To Learn</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, eos! Eligendi velit neque perspiciatis error.</p>                                
+                            </div>
+                        </div>
+
+                        <div id="card2" class="card col-sm-8 col-lg-3 rounded m-4">
+                            <a href="#"><i class="fa-solid fa-reply fa-2x"></i></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Fast Response</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet met consectet consectet adipisicing elit. Aliquid, eos! Eligendi velit neque perspiciatis error.</p>                                
+                            </div>
+                        </div>
+                    </div>
+
+               </section>
+
+<!-- card section ends here  -->
+
+<!-- about me section starts here  -->
+
+               <section id="aboutMeSec">
+
+
+                    <div id="aboutmeDiv" class="p-sm-3 p-lg-4">
+
+                        <div id="aboutmeHeading">
+                            <h3 class="text-center" style="font-weight: bolder;">About Me</h3>
+                            <hr class="hr-design">
+                        </div>
+
+                        <div id="aboutmeDescription">
+                            <p>As a Computer Science Engineering student, I am deeply passionate about exploring the intersection of technology and innovation. I thrive in challenging environments that allow me to apply my knowledge in programming, algorithms, and software development. With a strong foundation in [ specific areas like data structures, databases ]. I am committed to continuous learning and growth in the field of Computer Science Engineering. </p>
+                        </div>
+
+                        <div id="abotmeContent">
+                            <div id="row1" class="row">
+
+                                <div id="myself" class="col-lg-5 p-3 text-sm-center text-lg-left">
+                                    <i class="mb-3 fa-solid fa-user-graduate fa-2x p-3 bg-danger text-white rounded-circle"></i>
+                                    <h4>Personal Info</h4>
+                                    <p><span>Name : </span>Md.Ali Haidar</p>
+                                    <p><span>Professinon : </span>Software Engineer</p>
+                                    <p><span>Address : </span>Banasree , Rampura , Dhaka</p>
+                                    <p><span>Website : </span><a href="https://alihaidarewu.blogspot.com/" target="blank">alihaidarewu.blogspot.com</a></p>
+                                    <button class="btn btn-dark mt-3">CV Download</button>
+                                </div>
+
+                            </div>
+
+                            <div id="row2" class="row">
+                                
+                                <div class="col-lg-7">
+
+                                </div>
+
+                                <div class="col-lg-5 p-3 text-sm-center text-lg-left mt-2">
+                                    <i class="mb-3 fa-solid fa-graduation-cap fa-2x p-3 bg-danger text-white rounded-circle"></i>
+                                    <h4>Education </h4>
+                                    <p><span style="font-weight: bold;">B.Sc. in Computer Science and Engineering</span> (2022-on going)</p>
+                                    <p>East West University , Dhaka , Bangladesh</p> <br>
+                                    <p><span style="font-weight: bold;">Higher School Certificate</span> (2018-2020)</p>
+                                    <p>Nawabganj Govt College , Chapai Nawabganj , Bangladesh</p>
+                                    <p>Result : 5.00 <span class="small"> [ out of 5.00 ]</span></p> <br>
+                                    <p><span style="font-weight: bold;">Secondary School Certificate</span> (2016-2018)</p>
+                                    <p>Namoshankor Bati High School , Chapai Nawabganj , Bangladesh</p>
+                                    <p>Result : 5.00 <span class="small"> [ out of 5.00 ]</span></p>
+                                </div>
+
+                            </div>
+
+                            <div id="row3" class="row">
+                                <div id="skillsDiv" class="col-lg-5 p-3 text-sm-center text-lg-left">
+
+                                    <i class="mb-3 fa-solid fa-laptop-code fa-2x p-3 bg-danger text-white rounded-circle"></i>
+                                    <h4>Skills</h4>
+
+                                    <table class="m-sm-auto m-lg-0">
+                                        <tr>
+                                            <td>HTML : </td>
+                                            <td>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-regular fa-star"></i></span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>CSS : </td>
+                                            <td>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-regular fa-star"></i></span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>BootStrap : </td>
+                                            <td>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-regular fa-star"></i></span>
+                                                <span><i class="fa-regular fa-star"></i></span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>JavaScript : </td>
+                                            <td>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-regular fa-star"></i></span>
+                                                <span><i class="fa-regular fa-star"></i></span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Java : </td>
+                                            <td>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-regular fa-star"></i></span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>C : </td>
+                                            <td>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-regular fa-star"></i></span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <button class="btn btn-dark mt-3">More</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+               </section>
+
+<!-- about me section ends here  -->
+
+<!-- tutorial section starts here  -->
+
+               <section id="tutorialSec">
+
+                    <div id="tutorialDiv" class="bg-light">
+
+                        <div id="tutorialHeading" class="mb-3">
+                            <h3 class="text-center" style="font-weight: bolder;">Tutorial</h3>
+                            <hr class="hr-design">
+                        </div>
+
+                        <div id="tutorialContent">
+
+                            <div class="row p-3 justify-content-center">
+
+                                <div class="card col-sm-12 col-md-5 col-lg-2 m-3 p-2">
+                                    <img class="card-img-top" src="./images/pic3.jpg" alt="subject image">
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Computer Science</h5>
+                                        <a href="#" target="_blank" class="card-link stretched-link"></a>
+                                    </div>
+
+                                </div>
+
+                                <div class="card col-sm-12 col-md-5 col-lg-2 m-3 p-2">
+                                    <img class="card-img-top" src="./images/pic2.jpg" alt="subject image">
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Computer Science</h5>
+                                        <a href="#" target="_blank" class="card-link stretched-link"></a>
+                                    </div>
+
+                                </div>
+
+                                <div class="card col-sm-12 col-md-5 col-lg-2 m-3 p-2">
+                                    <img class="card-img-top" src="./images/pic1.jpg" alt="subject image">
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Computer Science</h5>
+                                        <a href="#" target="_blank" class="card-link stretched-link"></a>
+                                    </div>
+
+                                </div>
+
+                                <div class="card col-sm-12 col-md-5 col-lg-2 m-3 p-2">
+                                    <img class="card-img-top" src="./images/pic4.jpg" alt="subject image">
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Computer Science</h5>
+                                        <a href="#" target="_blank" class="card-link stretched-link"></a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row p-3 justify-content-center">
+
+                                <div class="card col-sm-12 col-md-5 col-lg-2 m-3 p-2">
+                                    <img class="card-img-top" src="./images/pic4.jpg" alt="subject image">
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Computer Science</h5>
+                                        <a href="#" target="_blank" class="card-link stretched-link"></a>
+                                    </div>
+
+                                </div>
+
+                                <div class="card col-sm-12 col-md-5 col-lg-2 m-3 p-2">
+                                    <img class="card-img-top" src="./images/pic1.jpg" alt="subject image">
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Computer Science</h5>
+                                        <a href="#" target="_blank" class="card-link stretched-link"></a>
+                                    </div>
+
+                                </div>
+
+                                <div class="card col-sm-12 col-md-5 col-lg-2 m-3 p-2">
+                                    <img class="card-img-top" src="./images/pic2.jpg" alt="subject image">
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Computer Science</h5>
+                                        <a href="#" target="_blank" class="card-link stretched-link"></a>
+                                    </div>
+
+                                </div>
+
+                                <div class="card col-sm-12 col-md-5 col-lg-2 m-3 p-2">
+                                    <img class="card-img-top" src="./images/pic3.jpg" alt="subject image">
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Computer Science</h5>
+                                        <a href="#" target="_blank" class="card-link stretched-link"></a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+               </section>
+
+<!-- tutorial section ends here  -->
+
+<!-- feedback section starts here  -->
+
+               <section id="feedbackSec">
+
+                    <div id="feedbackDiv">
+
+                        <div id="feedback-heading">
+                            <h4 class="text-center">Feedback</h4>
+                            <hr class="hr-design">
+                        </div>
+
+                        <div id="feedbackContent">
+
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators mb-2">
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active text-center">
+                                    
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, maxime a! Totam iure a dolorum?</p>
+                                    <img src="./images/pic4.jpg" alt="image" class="rounded-circle"  style="width: 50%;">
+                                    <h5>Ali Haidar</h5>
+
+                                  </div>
+
+                                    <div class="carousel-item text-center">
+                                    
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, maxime a! Totam iure a dolorum?</p>
+                                        <img src="./images/pic4.jpg" alt="image" class="rounded-circle"  style="width: 50%;">
+                                        <h5>Ali Haidar</h5>
+
+                                     </div>
+
+                                     <div class="carousel-item text-center">
+                                    
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, maxime a! Totam iure a dolorum?</p>
+                                        <img src="./images/pic4.jpg" alt="image" class="rounded-circle"  style="width: 50%;">
+                                        <h5>Ali Haidar</h5>
+
+                                     </div>
+
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+
+                        </div>
+
+                    </div>
+
+               </section>
+
+<!-- feedback section ends here  -->
+
+<!-- contact section starts here  -->
+
+               <section id="contactSec">
+
+                    <div id="contactDiv">
+
+                        <div id="contactHeading">
+                            <h4 class="text-center">Contact</h4>
+                            <hr class="hr-design">
+                        </div>
+
+                        <div id="contactContent">
+
+                            <form action="mailto:alihaidar379227@proton.me" method="post" enctype="text/plain" class="was-validated">
+                                
+                                <div class="form-group">
+                                    <label for="fullname">Full Name : </label>
+                                    <input type="text" class="form-control" name="fullname" required>
+                                    <div class="valid-feedback">valid</div>
+                                    <div class="invalid-feedback">Enter your full name correctly</div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email : </label>
+                                    <input type="email" class="form-control" name="email" required>
+                                    <div class="valid-feedback">valid</div>
+                                    <div class="invalid-feedback">Enter a valid email</div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Enter your openion :</label>
+                                    <textarea name="message" class="form-control" rows="5" cols="2" style="resize: none;"></textarea>
+                                </div>
+
+                                <div id="buttons" class="text-center">
+                                    <input type="submit" value="Submit" class="btn btn-success mr-lg-2">
+                                    <input type="reset" value="Clear" class="btn btn-danger">
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+               </section>
+
+<!-- contact section ends here  -->
+
+            </main>
+
+            <footer>
+               <div id="footerSec">
+                    <div id="footerDiv" class="bg-secondary d-flex justify-content-around text-light p-3 flex-sm-column flex-lg-row text-center">
+                        <div id="footerLeft">
+                            <p>&copy; This website is created by Ali Haidar</p>
+                        </div>
+
+                        <div id="footerRight">
+                            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+
+                    </div>
+               </div>
+            </footer>
+
+        </div>
+
+        <!-- Bootstrap JS , JQuery , Popper connection using cdn  -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>

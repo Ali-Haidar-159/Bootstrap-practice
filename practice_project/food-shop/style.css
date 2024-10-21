@@ -1,0 +1,165 @@
+
+/* ===================================================
+            fullBody design START 
+=================================================== */
+
+
+#fullBody{
+    font-family: "Montserrat", sans-serif; 
+}
+
+
+/* fullBody design END  */
+
+
+/* ===================================================
+            navbarDiv design START 
+=================================================== */
+
+
+#navbarSec{
+    height: 100vh;
+    background-image: url("./images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#navbarDiv {
+    background-color: aliceblue;
+
+}
+
+#navbarDiv a{
+    color: black;
+    border-bottom: 2px solid aliceblue ;
+}
+
+
+#navbarDiv .navbar-nav a:hover{
+    border-bottom: 2px solid orange;
+}
+
+
+#navbarDiv #searchDiv input{
+    border:.5px solid orange ;
+}
+
+#navbarDiv #searchDiv button{
+    visibility:  hidden;
+}
+
+#navbarDiv #searchDiv  input:not(:placeholder-shown)+button{
+    visibility: visible;
+}
+
+.navbar-brand{
+    font-family: "Playwrite GB S", cursive;
+    font-weight: bolder;
+    transition: 0.4s;
+}
+
+.navbar-brand:hover{
+    transform: scale(1.05);
+}
+
+.navbar-nav li{
+    padding: 5px;
+}
+
+.navbar-nav a:hover{
+    color: brown;
+}
+
+#bannerMiddle{
+   position: absolute;
+   top: 40% ;
+   left: 5%;
+   width: 35%;
+   text-align: center;
+}
+
+@media screen and (max-width:600px){
+    #bannerMiddle{
+        width: 75%;
+    }
+
+    #navbarDiv a:hover{
+        border: 2px solid orange;
+    }
+}
+
+
+/* navbarDiv design END  */
+
+
+/* ===================================================
+            Trending Section design START 
+=================================================== */
+
+#trendingSec #trendingDiv{
+    margin: 5% 1% ;
+    padding: 5% 1%;
+}
+
+
+#trendingSec #trendingDiv #row1 i{
+    background-color: aquamarine;
+    color: black;
+    padding: 8%;
+    border-radius: 50%;
+}
+
+#trendingSec #trendingDiv #row1 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#trendingBodyHero{
+    margin-top: 6%;
+}
+
+#trendingBodyHero #healthyImage img{
+    height: 300px;
+}
+
+/* Trending Section design END  */
+
+
+/* ===================================================
+            Footer Section design START 
+=================================================== */
+
+#footerDiv{
+    background-color: rgb(6, 6, 79);
+    padding: 5%;
+}
+
+#footerDiv p{
+    margin-bottom: 0;
+}
+
+#footerDiv a{
+    color: white;
+}
+
+#footerDiv a:hover{
+    color:white ;
+}
+
+#footerDiv h4{
+    color: white;
+}
+
+#footerDiv h6{
+    font-weight: bold ;
+    color: orange;
+}
+
+
+/* footer desing END  */
+
+
+

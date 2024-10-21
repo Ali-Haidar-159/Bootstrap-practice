@@ -1,0 +1,174 @@
+/* ===================================================
+            fullBody design START 
+=================================================== */
+
+
+#fullBody{
+    font-family: "Montserrat", sans-serif; 
+}
+
+
+/* fullBody design END  */
+
+
+/* ===================================================
+            navbarDiv design START 
+=================================================== */
+
+#navbarDiv {
+    background-color: aliceblue;
+
+}
+
+#navbarDiv a{
+    color: black;
+    border-bottom: 2px solid aliceblue ;
+}
+
+
+#navbarDiv .navbar-nav a:hover{
+    border-bottom: 2px solid orange;
+}
+
+
+.navbar-brand{
+    font-family: "Playwrite GB S", cursive;
+    font-weight: bolder;
+    transition: 0.4s;
+}
+
+.navbar-brand:hover{
+    transform: scale(1.05);
+}
+
+.navbar-nav li{
+    padding: 5px;
+}
+
+.navbar-nav a:hover{
+    color: brown;
+}
+
+/* navbar design END  */
+
+
+/* ===================================================
+            banner design START 
+=================================================== */
+
+#bannerDiv{
+    background-image: url("./images/bann.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 400px; 
+    height: auto;
+    position: relative;
+    padding: 2%;
+    overflow: scroll;
+}
+
+#bannerDiv #content{
+    position:absolute ;
+    top:20%;
+    margin-left: 2%;
+}
+
+
+/* banner design end  */
+
+/* ===================================================
+            productSec design START 
+=================================================== */
+
+
+#productSec #productDiv img{
+    width: 75px ;
+    height: 75px ;
+    margin-right: 3%;
+    border: 1px solid #ddd;
+}
+
+
+#catagoryDiv #catagoryHeading,#BestSellerDiv #BestSellerHeading{
+    border-left: 5px solid blue ;
+    padding-left: 1% ;
+}
+
+.LikeCard{
+    border: 1px solid #ddd ;
+    transition: 0.4s ;
+    border-radius: 15px ;
+}
+
+.LikeCard:hover{
+    transform:scale(1.1);
+}
+
+#newcollectionDiv{
+    padding: 2% ;
+}
+
+#newcollectionDiv .card{
+    margin-bottom: 10%;
+    transition: 0.4s;
+}
+
+#newcollectionDiv .card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#newcollectionDiv .card img{
+    height: 200px ;
+}
+
+#newcollectionDiv h4{
+    padding: 1% ;
+    border-left: 5px solid orange;
+}
+
+
+
+/* product section design ends here  */
+
+
+/* ===================================================
+            Footer Section design START 
+=================================================== */
+
+#footerDiv{
+    background-color: rgb(6, 6, 79);
+    padding: 5%;
+}
+
+#footerDiv p{
+    margin-bottom: 0;
+}
+
+#footerDiv a{
+    color: white;
+}
+
+#footerDiv a:hover{
+    color:white ;
+}
+
+#footerDiv h4{
+    color: white;
+}
+
+#footerDiv h6{
+    font-weight: bold ;
+    color: orange;
+}
+
+
+/* footer desing END  */
+
+
+
+
+
+

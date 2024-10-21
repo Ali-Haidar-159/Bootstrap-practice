@@ -1,0 +1,72 @@
+/* ===================================================
+            fullBody design START 
+=================================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #eaeded;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* fullBody design END  */
+
+
+
+/* ===================================================
+            message Div design START 
+=================================================== */
+
+@keyframes messageAnimation{
+    0%{
+        color: rgb(27, 27, 243);    
+    }
+
+    30%{
+        color: rgb(252, 37, 37); 
+        font-weight: bold;   
+    }
+
+   60%{
+        color: rgb(64, 234, 75);    
+    }
+
+    100%{
+        color: rgb(237, 57, 234);  
+        font-weight: bold;  
+    }
+}
+
+#msg{
+    transition: 0.2s;
+    animation-name: messageAnimation ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+#confirmMsgDiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* message Div design END  */
+
+
+
+

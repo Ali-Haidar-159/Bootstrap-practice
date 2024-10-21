@@ -1,0 +1,32 @@
+/* ===================================================
+            fullBody design START 
+=================================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #eaeded;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* fullBody design END  */
+
+/* ===================================================
+            form design START 
+=================================================== */
+
+#orderSec #orderDiv form div{
+    margin: 13px 5px;
+    padding: 1% ;
+}
+
+
