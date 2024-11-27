@@ -5,6 +5,7 @@ Welcome to my collection of frontend projects! This repository showcases various
 ## Table of Contents
 - [Ecommerce Website](https://github.com/Ali-Haidar-159/Bootstrap-practice/tree/master/practice_project/food-shop)
 - [Portfolio Website](https://github.com/Ali-Haidar-159/Bootstrap-practice/tree/master/practice_project/portfolio)
+- [Animated Portfolio Website](https://github.com/Ali-Haidar-159/Bootstrap-practice/tree/master/practice_project/animatedPortfolio)
 
 
 ## Technologies Used
