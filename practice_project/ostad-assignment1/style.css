@@ -1,0 +1,137 @@
+
+/* -------------------------------------------------
+            initial design starts here 
+------------------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+/* initial design ends here  */
+
+
+/* -------------------------------------------------
+            header design starts here 
+------------------------------------------------- */
+
+#navbarDiv #navbarSupportedContent ul li a{
+    text-align: center;
+    color: black;
+}
+
+#navbarDiv #navbarSupportedContent ul li a:hover{
+    color: rgb(18, 18, 158);
+    font-weight: bold;
+}
+
+/* header design ends here  */
+
+/* -------------------------------------------------
+            HeroDiv design starts here 
+-------------------------------------------------  */
+
+#heroDiv{
+    background-color: #ebf5fb;
+}
+
+/* HeroDiv design ends here  */
+
+
+/* -------------------------------------------------
+            skillDiv design starts here 
+-------------------------------------------------  */
+#skillDiv .card{
+    background-color: #ebf5fb;
+}
+
+#skillDiv .card:hover{
+    box-shadow: 2px 2px 4px gray;
+}
+
+/* skillDiv design ends here  */
+
+
+
+/* -------------------------------------------------
+            aboutMe design starts here 
+-------------------------------------------------  */
+
+#aboutmeDiv .row img{
+    width: 30%;
+    height: 400px;
+}
+
+/* aboutMeDiv ends here  *
+
+
+
+/* -------------------------------------------------
+            portfolio design starts here 
+-------------------------------------------------  */
+
+#portfolioDiv .card:hover{
+    box-shadow: 2px 2px 4px gray;
+}
+
+/* portfolio design ends here  */
+
+
+
+/* -------------------------------------------------
+            testimonial design starts here 
+-------------------------------------------------  */
+
+#testimonialDiv{
+    background-color: #ebf5fb;
+    padding: 4% ;
+}
+
+/* testimonial design ends here  */
+
+
+
+/* -------------------------------------------------
+            footer design starts here 
+-------------------------------------------------  */
+
+#footerDiv{
+    background-color: #ebf5fb;
+    padding: 2%;
+}
+
+#latFoot {
+    text-align: right;
+}
+
+
+#latFoot ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px ;
+    text-align: right;
+}
+
+#latFoot ul li a{
+    text-align: right;
+    color: black;
+    font-size: 0.8rem;
+}
+
+/* footer design ends here  */
+
+
+
+
+
+

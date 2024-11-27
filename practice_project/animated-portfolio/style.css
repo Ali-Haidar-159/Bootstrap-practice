@@ -1,0 +1,202 @@
+
+/* ++++++++++++++++++++++++++++++++++
+    initial design starts here  
++++++++++++++++++++++++++++++++++++++ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+
+body{
+        background-color: #040f30;
+    }
+
+}
+
+
+/* initial design ends here  */
+
+
+
+/* ++++++++++++++++++++++++++++++++++
+    header design starts here  
++++++++++++++++++++++++++++++++++++++ */
+
+#logo{
+    transition: 0.5s;
+    animation-name: logoAnimation;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes logoAnimation{
+    0%{
+        transform: translate(-100px,0px);
+    }
+    
+    100%{
+        transform: translate(0px,0px);
+    }
+}
+
+
+#navbarDiv ul li a{
+    color : white ;
+    border: 2px solid #040f30;
+    text-align: center;
+}
+
+#navbarDiv ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
+/* header design ends here  */
+
+
+/* ++++++++++++++++++++++++++++++++++
+    hero design starts here  
++++++++++++++++++++++++++++++++++++++ */
+
+@keyframes heroAnimation{
+    from{
+        transform: translate(0px,100px);
+    }
+
+    to{
+        transform: translate(0px,0px);
+    }
+}
+
+#heroSec #heroDiv{
+    text-align: center;
+    padding: 5% 1%  ;
+    border-bottom: 1px solid wheat;
+}
+
+#heroSec #heroDiv button{
+    background: linear-gradient(to right , #972cdc,#ec5b21);
+    margin-bottom: 10% ;
+}
+
+#heroTitle{
+    transition: 0.5s;
+    animation-name: heroAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+#heroSec #heroDiv img{
+    border-radius: 20px ;
+    height: 400px;
+    width: 60%;
+}
+
+/* hero design ends here  */
+
+
+/* ++++++++++++++++++++++++++++++++++
+    about  me design starts here  
++++++++++++++++++++++++++++++++++++++ */
+
+@keyframes forRow1{
+    from{
+        transform: translate(0px,100px);
+    }
+
+    to{
+        transform: translate(0px,0px);
+    }
+}
+
+@keyframes forRow2{
+    from{
+        transform: translate(-200px,0px);
+    }
+
+    to{
+        transform: translate(0px ,0px);
+    }
+}
+
+@keyframes forRow3{
+    from{
+        transform: translate(200px,0px);
+    }
+
+    to{
+        transform: translate(0px,0px);
+    }
+}
+
+#aboutmeDiv img{
+    width: 45%;
+    height: 300px ;
+    border-radius: 20px ;
+}
+
+#aboutmeRow1{
+    transition: 0.4s;
+    animation-name: forRow1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+#aboutmeRow2{
+    transition: 0.4s;
+    animation-name: forRow2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+#aboutmeRow3{
+    transition: 0.4s;
+    animation-name: forRow3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+/* about me design ends here  */
+
+
+
+/* ++++++++++++++++++++++++++++++++++
+    features design starts here  
++++++++++++++++++++++++++++++++++++++ */
+
+#featureDiv img{
+    width: 40% ;
+    height: 300px ;
+    border-radius: 15px ;
+    margin-left: 3%;
+}
+
+/* features design ends here  */
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++
+    features design starts here  
++++++++++++++++++++++++++++++++++++++ */
+
+
+#footerDiv #footerRight a,address{
+    color: aliceblue;
+}
+
+#footerDiv #footerRight i{
+    padding: 1%;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#footerDiv #footerRight i:hover{
+    color: #972cdc;
+}
+
+/* footer desing ends here */

@@ -1,0 +1,64 @@
+
+/* -------------------------------------------------
+            initial design starts here 
+-------------------------------------------------  */
+
+#navbarDiv #contactMeButton{
+    display: none;
+}
+
+/* initial design ends here  */
+
+/* -------------------------------------------------
+            HeroDiv design starts here 
+-------------------------------------------------  */
+
+#heroDiv{
+    text-align: center;
+}
+
+/* HeroDiv design ends here  */
+
+
+/* -------------------------------------------------
+            skillDiv design starts here 
+-------------------------------------------------  */
+
+#skillDiv .card{
+    margin-bottom: 25px ;
+}
+
+/* skillDiv design ends here  */
+
+
+/* -------------------------------------------------
+            aboutMe design starts here 
+-------------------------------------------------  */
+
+#aboutmeDiv .row img{
+    width: 85%;
+    height: 400px;
+}
+
+/* aboutMeDiv ends here  */
+
+
+
+/* -------------------------------------------------
+            aboutMe design starts here 
+-------------------------------------------------  */
+
+
+/* aboutMe design ends here  */
+
+
+
+
+
+
+
+
+
+
+
+

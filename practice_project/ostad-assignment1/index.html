@@ -1,0 +1,587 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <title>My Portfolio</title>
+        <link rel="icon" href="./images/logo+.png"  type="image/x-icon">
+
+        <!-- all meta tags  -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <meta name="description" content="This is a practice website">
+        <meta name="author" content="Ali Haidar">
+
+        <!-- font awesome connection using cdn  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- google font connection using cdn  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+        <!-- bootstrap connection using cdn  -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+        <!-- css file connection  -->
+         <link rel="stylesheet" href="./style.css">
+         <link rel="stylesheet" media="screen and (max-width:772px)" href="./mobileStyle.css">
+
+    </head>
+
+    <body>
+        
+        <div class="container">
+
+            <header>
+                
+                <section id="navbarSec">
+
+                    <div id="navbarDiv">
+
+                        <nav class="navbar navbar-expand-lg">
+
+                            <a href="#">
+                                <img class="navbar-brand" src="./images/Logo.png" alt="Logo" style="width: 150px;">
+                            </a>
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="fas fa-bars text-black"></i></span>
+                            </button>
+                          
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="m-auto">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li> 
+                                        <li class="nav-item"><a class="nav-link" href="#portfolioDiv">Portfolio</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#aboutmeDiv">About Me</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#testimonialDiv">Testmonials</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <button id="contactMeButton" onclick="location.href='#contactmeDiv'" class="btn btn-outline-primary">Contact Me</button>
+
+                        </nav>
+
+                    </div>
+
+                </section>
+
+            </header>
+
+            <main>
+
+            <!-- hero section starts here -->
+
+                <section id="heroSec">
+
+                    <div id="heroDiv" class="p-4 my-4">
+
+                        <div class="row">
+
+                            <div class="col-lg-6 col-md-11 align-self-center">
+
+                                <h6>Hey , I am Haidar</h6>
+                                <h2>I create <span style="color:blueviolet;">Product Design</span> and brand experience</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident dolor similique at quae officia. Nemo ipsam magni dignissimos? Quibusdam, commodi.</p>
+
+                                <button class="btn btn-primary">Get In Touch</button>
+
+                            </div>
+
+                            <div class="col-lg-6 col-md-11 mt-5">
+                                <div>
+                                    <img src="./images/img1.png" alt="Image missing" style="width: 85%;"> 
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+            <!-- hero section ends here -->
+
+
+            <!-- skill section starts here -->
+                
+                <section id="skillSec">
+
+                    <div id="skillDiv" class=" py-4 my-4">
+
+                        <div id="skillDivHeading" class="my-4">
+                            <p>My Skills</p>
+                            <h4>My Experience</h4>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-3 col-md-2">
+                                <div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img src="./images/Strategy & Direction.png" alt="image missing" style="width: 70px;">
+                                            <h6 class="card-title">Strategy & Direction</h6>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere animi eveniet odio similique eos et.</p>
+                                            <a href="#" class="card-link stretched-link"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-2">
+                                <div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img src="./images/UI & UX Design.png" alt="image missing" style="width: 70px;">
+                                            <h6 class="card-title">UI & UX Design</h6>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere animi eveniet odio similique eos et.</p>
+                                            <a href="#" class="card-link stretched-link"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-2">
+                                <div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img src="./images/Webflow Development.png" alt="image missing" style="width: 70px;">
+                                            <h6 class="card-title">Webflow Development</h6>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere animi eveniet odio similique eos et.</p>
+                                            <a href="#" class="card-link stretched-link"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-2">
+                                <div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img src="./images/Branding & Logo.png" alt="image missing" style="width: 70px;">
+                                            <h6 class="card-title">Branding & Logo</h6>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere animi eveniet odio similique eos et.</p>
+                                            <a href="#" class="card-link stretched-link"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+            <!-- skill section ends here -->
+
+            <!-- aboutMe section starts here -->
+
+                <section id="aboutmeSec">
+
+                    <div id="aboutmeDiv" class="p-3">
+
+                        <div class="row">
+
+                            <div class="media flex-sm-column flex-lg-row">
+                               
+                                <img src="./images/About Me.png" alt="Image missing">
+                                
+                                <div class="media-body align-self-center p-4 mx-4">
+                                    <h3>About Me</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iure aliquid aut laboriosam ullam cupiditate sapiente suscipit quibusdam error nostrum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque. Molestias quibusdam numquam sit autem hic incidunt sint odio ad?</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, aut. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, deleniti.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+            <!-- aboutMe section ends here -->
+
+            <!-- portfolio section starts here  -->
+
+                <section id="portfolioSec">
+
+                    <div id="portfolioDiv" class="py-4 my-4">
+
+                        <div class="row my-4">
+                            <div class="col-lg-6 col-sm-6">
+                                <div>
+                                    <h2>My Portfolio</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-sm-6 text-right">
+                                <div>
+                                    <button class="btn btn-info text-end"><i class="fa-solid fa-globe mr-2"></i>visit my website</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row my-4">
+                            <div class="col-lg-4 my-3">
+                                <div>
+                                    <div class="card">
+                                        <img src="./images/Image.png" alt="Image missing">
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">Ahuse</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, nulla?</p>
+                                            <a href="#" class="card-link stretched-link"><i class="fa-solid fa-up-right-from-square mr-2"></i>View In Dribble</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 my-3">
+                                <div>
+                                    <div class="card">
+                                        <img src="./images/Image2.png" alt="Image missing">
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">App Dashbord</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, nulla?</p>
+                                            <a href="#" class="card-link stretched-link"><i class="fa-solid fa-up-right-from-square mr-2"></i>View In Dribble</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 my-3">
+                                <div>
+                                    <div class="card">
+                                        <img src="./images/Image3.png" alt="Image missing">
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">Easy Rent</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, nulla?</p>
+                                            <a href="#" class="card-link stretched-link"><i class="fa-solid fa-up-right-from-square mr-2"></i>View In Dribble</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+            <!-- portfolio sections ends here  -->
+
+
+            <!-- testimonial starts here  -->
+
+            <section id="testimonialSec">
+
+                <div id="testimonialDiv" class="py-4 my-4">
+
+                    <h2 class="mb-4">Customer Testimonials</h2>
+
+                    <div class="row">
+                        <div class="col-lg-4 py-3">
+                            <div>
+                                <div class="card p-3">
+                                    <div class="card-body">
+                                        <span><i class="fa-solid fa-star mr-1 text-success"></i></span>
+                                        <span><i class="fa-solid fa-star mr-1 text-success"></i></span>
+                                        <span><i class="fa-solid fa-star mr-1 text-success"></i></span>
+                                        <span><i class="fa-solid fa-star mr-1 text-success"></i></span>
+                                        <span><i class="fa-solid fa-star mr-1 text-success"></i></span>
+
+                                        <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus non velit at, est error nisi?</p>
+
+                                    </div>
+
+                                    <div id="card-footer">
+
+                                        <div>
+                                            <div class="media">
+                                                <img src="./images/Avatar Image.png" alt="Image missing" style="width: 55px;">
+
+                                                <div class="media-body ml-3">
+                                                    <p>Dianne Russel</p>
+                                                    <p class="small">student</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 py-3">
+                            <div>
+                                <div class="card p-3">
+                                    <div class="card-body">
+                                        <span><i class="fa-solid fa-star mr-1 text-success"></i></span>
+                                        <span><i class="fa-solid fa-star mr-1 text-success"></i></span>
+                                        <span><i class="fa-solid fa-star mr-1 text-success"></i></span>
+                                        <span><i class="fa-solid fa-star mr-1 text-success"></i></span>
+                                        <span><i class="fa-solid fa-star mr-1 text-success"></i></span>
+
+                                        <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus non velit at, est error nisi?</p>
+
+                                    </div>
+
+                                    <div id="card-footer">
+
+                                        <div>
+                                            <div class="media">
+                                                <img src="./images/Avatar Image(1).png" alt="Image missing" style="width: 55px;">
+
+                                                <div class="media-body ml-3">
+                                                    <p>Dianne Russel</p>
+                                                    <p class="small">student</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 py-3">
+                            <div>
+                                <div class="card p-3">
+                                    <div class="card-body">
+                                        <span><i class="fa-solid fa-star mr-1 text-success"></i></span>
+                                        <span><i class="fa-solid fa-star mr-1 text-success"></i></span>
+                                        <span><i class="fa-solid fa-star mr-1 text-success"></i></span>
+                                        <span><i class="fa-solid fa-star mr-1 text-success"></i></span>
+                                        <span><i class="fa-solid fa-star mr-1 text-success"></i></span>
+
+                                        <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus non velit at, est error nisi?</p>
+
+                                    </div>
+
+                                    <div id="card-footer">
+
+                                        <div>
+                                            <div class="media">
+                                                <img src="./images/Avatar Image(2).png" alt="Image missing" style="width: 55px;">
+
+                                                <div class="media-body ml-3">
+                                                    <p>Dianne Russel</p>
+                                                    <p class="small">student</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- testimonial ends here  -->
+
+            <!-- about me starts here  -->
+
+            <section id="contactmeSec">
+
+                <div id="contactmeDiv" class="py-4 my-4">
+
+                    <div id="topText" class="text-center">
+                        <p class="small">Get In Touch</p>
+                        <h2>Contact Me</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+
+                    <div id="contactForm">
+
+                        <form action="mailto:alihaidar379227@proton.me" method="post" enctype="text/plain" class="was-validated">
+
+                            <div class="row">
+
+                                <div class="col-lg-6 my-2">
+                                    <div>
+                                        <div id="fName">
+                                            <label for="firstName" class="form-label">First Name :</label>
+                                            <input type="text" name="firstName" id="firstName" class="form-control">
+                                            <div class="valid-feedback">valid</div>
+                                            <div class="invalid-feedback">enter the correct info...</div>
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 my-2">
+                                    <div>
+                                        <div id="lName">
+                                            <label for="lastName" class="form-label">Last Name :</label>
+                                            <input type="text" name="lastName" id="lastName" class="form-control">
+                                            <div class="valid-feedback">valid</div>
+                                            <div class="invalid-feedback">enter the correct info...</div>
+                                        </div> 
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-lg-6 my-2">
+                                    <div>
+                                        <div id="email">
+                                            <label for="email" class="form-label">Email :</label>
+                                            <input type="email" name="email" id="email" class="form-control">
+                                            <div class="valid-feedback">valid</div>
+                                            <div class="invalid-feedback">enter the correct info...</div>
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 my-2">
+                                    <div>
+                                        <div id="mobileNum">
+                                            <label for="mobileNum" class="form-label">Mobile Number :</label>
+                                            <input type="number" name="mobileNum" id="mobileNum" class="form-control">
+                                            <div class="valid-feedback">valid</div>
+                                            <div class="invalid-feedback">enter the correct info...</div>
+                                        </div> 
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </form>
+
+                        <form action="mailto:alihaidar379227@proton.me" method="post" enctype="text/plain">
+
+                            <div id="dropDown" class="my-3">
+                                <label for="topic" class="form-label">Choose a topic :</label>
+                                <select name="topic" id="topic" class="form-control">
+                                    <option value="">Select One...</option>
+                                    <option value="html">HTML</option>
+                                    <option value="css">CSS</option>
+                                    <option value="bootstrap">BOOTSTRAP</option>
+                                </select>
+                            </div>
+
+                            <div id="msg" class="my-3">
+                                <label for="msg" class="form-label">Message</label>
+                                <textarea name="msg" id="msg" class="form-control" rows="4"></textarea>
+                            </div>
+
+                            <div class="form-group my-3">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">I accept all the terms</label>
+                                </div>
+                            </div>
+                            
+                            <div class="text-center">
+                                <button class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- about me ends here  -->
+
+            </main>
+
+            <footer>
+
+                <section id="footerSec">
+
+                    <div id="footerDiv">
+
+                        <div class="row text-center">
+
+                            <div class="col-lg-2 my-4">
+                                <div>
+                                    <a href="#">
+                                        <img src="./images/Logo.png" alt="Logo" style="width: 170px ;">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-7 my-4">
+                                
+                                <div>
+                                    <ul class="nav">
+                                        <!-- <li class="nav-item"><a class="nav-link mr-2 text-center" href="#">Home</a></li> -->
+                                        <li class="nav-item"><a class="nav-link mr-2 text-center" href="#portfolioDiv">Portfolio</a></li>
+                                        <li class="nav-item"><a class="nav-link mr-2 text-center" href="#aboutmeDiv">About Me</a></li>
+                                        <li class="nav-item"><a class="nav-link mr-2 text-center" href="#testimonialDiv">Testimonials</a></li>
+                                        <li class="nav-item"><a class="nav-link mr-2 text-center" href="#contactmeDiv">Contact Me</a></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+
+                            <div class="col-lg-3 my-4  text-center">
+                                <div>
+                                    <span><i class="fa-brands fa-2x fa-facebook text-black mr-2"></i></span>
+                                    <span><i class="fa-brands fa-2x fa-instagram text-black mr-2"></i></span>
+                                    <span><i class="fa-brands fa-2x fa-linkedin text-black mr-2"></i></span>
+                                    <span><i class="fa-brands fa-2x fa-twitter text-black mr-2"></i></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <hr>
+
+                        <div class="row">
+
+                            <div class="col-lg-6 col-sm-6 my-3">
+                                <div>
+                                    <p>Made with <span><i class="text-danger fa-solid fa-heart"></i></span> Ali Haidar</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-sm-6 my-3">
+                                <div id="latFoot">
+                                    <ul>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms of service</a></li>
+                                        <li><a href="#">Cookies Settings</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </footer>
+
+        </div>
+
+        <!-- bootstrap JS,JQ,Popper connection using cdn  -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
